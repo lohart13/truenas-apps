@@ -260,8 +260,8 @@ questions:
         - variable: certificate_id
           label: Certificate
           description: |
-            The TrueNAS certificate to use for DNS-over-TLS and DNS-over-HTTPS.</br>
-            When selected, the certificate and private key will be made available</br>
+            The TrueNAS certificate to use for DNS-over-TLS and DNS-over-HTTPS.<br/>
+            When selected, the certificate and private key will be made available<br/>
             inside the container for use in AdGuard Home's Encryption Settings.
           schema:
             type: int
